@@ -3,7 +3,7 @@ course = "Python for Beginners"
 print(len(course))
 # strings are zero-based index in python
 print(course[0])
-# negative index
+# negative index returns the character from the end of the string
 print(course[-1])
 # slicing it returns a new string with the characters in the specified range. starts from index 0 and ends at 2 (3-1)
 print(course[0:3])
@@ -15,5 +15,5 @@ print(course[:3])
 print(course[:])
 #
 fruit = "apple"
-# the below code prints the pple. it starts from index 1 and ends at index 4 (5-1)
+# the below code prints the ppl. it starts from index 1 and ends at index 4 (5-1)
 print(fruit[1:-1])
