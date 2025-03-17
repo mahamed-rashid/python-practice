@@ -33,3 +33,12 @@ else:
 for x in range(5):
     for y in range(3):
         print(f"({x},{y})")
+# Iterating for loop
+for x in range(5):
+    print(x)
+# Iterating over a string
+for x in "python":
+    print(x)
+# list with []
+for x in [1,2,3,4]:
+    print(x)
